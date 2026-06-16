@@ -81,7 +81,7 @@ const CREW = [
   {
     name: "Roshni", animal: "🦅", spirit: "The Bald Eagle",
     title: "She Who Carries the Weight (and the Bags)",
-    bio: "Easygoing on the surface, quietly holding the whole operation together. Her texts drive real results — whale watching is happening! Definitely packed Justin's bag and those for the Agarwal family. Familiar with Seattle and the region, she's dialing in the SEA and Orcas details for a killer PNW expedition while JV monitors World Cup tickets.",
+    bio: "Easygoing on the surface, quietly holding the whole operation together. Her texts drive real results — whale watching is happening! Definitely packed Justin's bag and those for the whole family. Familiar with Seattle and the region, she's dialing in the SEA and Orcas details for a killer PNW expedition while JV monitors World Cup tickets.",
     color: "#6C3461", accent: "#D7BDE2", group: "adults",
   },
   {
@@ -109,7 +109,7 @@ const CREW = [
     color: "#1565C0", accent: "#BBDEFB", group: "kids",
   },
   {
-    name: "Zora", animal: "🦦", spirit: "The Otter Pup",
+    name: "Zohra", animal: "🦦", spirit: "The Otter Pup",
     title: "Big Sister, Lead Explorer",
     bio: "The oldest of the young explorers and the one who leads the charge — first into the water, first down the trail, with the little ones following close behind. Curious about everything, fearless in the waves.",
     color: "#6A1B9A", accent: "#CE93D8", group: "kids",
@@ -130,8 +130,8 @@ const CAL_DAYS = [
     detail: "The Reluctant Salmon lands in Seattle. The trip officially begins." },
   { d: 17, dow: "Wed", phase: "seattle", label: "Mariners game", icon: "⚾",
     detail: "Mariners vs Orioles · 6:40pm · T-Mobile Park (Safeco). First group outing." },
-  { d: 18, dow: "Thu", phase: "seattle", label: "The Agarwals arrive", icon: "✈️",
-    detail: "Roshni, Justin, Ameena & Zora touch down. Everyone is now in town." },
+  { d: 18, dow: "Thu", phase: "seattle", label: "The Vails arrive", icon: "✈️",
+    detail: "Roshni, Justin, Ameena & Zohra touch down. Everyone is now in town." },
   { d: 19, dow: "Fri", phase: "seattle", label: "World Cup", icon: "⚽",
     detail: "USA vs Australia · ~12pm PST · the USMNT in Seattle. Evening at Kolby & Julie's house." },
   { d: 20, dow: "Sat", phase: "ferry", label: "Ferry to Orcas", icon: "⛴️",
@@ -156,7 +156,7 @@ const CAL_DAYS = [
     detail: "Easy day in Seattle." },
   { d: 29, dow: "Mon", phase: "seattle", label: "James departs", icon: "✌️",
     detail: "The Reluctant Salmon swims home — having loved it more than anyone." },
-  { d: 30, dow: "Tue", phase: "seattle", label: "Agarwals depart", icon: "✌️",
+  { d: 30, dow: "Tue", phase: "seattle", label: "Vails return home as Agarwals", icon: "✌️",
     detail: "Roshni, Justin & the girls head out. See you on the slopes next." },
 ];
 
@@ -344,8 +344,8 @@ const CAL_SEA = [
     detail: "James lands in Seattle — first to touch down. The trip officially begins." },
   { d: 17, dow: "Wed", phase: "seattle", label: "Mariners game", icon: "⚾",
     detail: "Mariners vs Orioles · 6:40pm · T-Mobile Park (Safeco). Ballpark dinner, first group outing of the trip." },
-  { d: 18, dow: "Thu", phase: "seattle", label: "Agarwals arrive", icon: "✈️",
-    detail: "Roshni, Justin, Ameena & Zora touch down. Everyone is now in Seattle." },
+  { d: 18, dow: "Thu", phase: "seattle", label: "Vails arrive", icon: "✈️",
+    detail: "Roshni, Justin, Ameena & Zohra touch down. Everyone is now in Seattle." },
   { d: 19, dow: "Fri", phase: "seattle", label: "World Cup", icon: "⚽",
     detail: "USA vs Australia · ~12pm PST · the USMNT in Seattle. Evening at Kolby & Julie's house." },
   { d: 20, dow: "Sat", phase: "ferry", label: "Depart for Orcas", icon: "⛴️",
@@ -370,7 +370,7 @@ const CAL_SEA = [
     detail: "Easy day in Seattle. Open to plans." },
   { d: 29, dow: "Mon", phase: "seattle", label: "James departs", icon: "✌️",
     detail: "James heads home — having loved Orcas more than anyone." },
-  { d: 30, dow: "Tue", phase: "seattle", label: "Agarwals depart", icon: "✌️",
+  { d: 30, dow: "Tue", phase: "seattle", label: "Vails return home as Agarwals", icon: "✌️",
     detail: "Roshni, Justin & the girls head out. See you on the slopes next." },
 ];
 
@@ -2720,6 +2720,12 @@ export default function Orcas2026() {
           {["🌊", "🏔️", "⛴️", "🌅", "🦀"].map((e, i) => (
             <span key={i} style={{ fontSize: 18, opacity: 0.6 }}>{e}</span>
           ))}
+        </div>
+        <div style={{
+          fontSize: 10, color: COLORS.slate, marginTop: 20, opacity: 0.6,
+          fontStyle: "italic", maxWidth: 420, marginLeft: "auto", marginRight: "auto", lineHeight: 1.6,
+        }}>
+          Featuring the Vail family — briefly, and affectionately, misfiled as "the Agarwals" by an early draft of this very site. A bug we've chosen to cherish.
         </div>
       </footer>
       </>)}
