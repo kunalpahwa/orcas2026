@@ -164,50 +164,50 @@ const CAL_DAYS = [
 const WC_DATA = [
   { date: "11", dow: "Thu", iso: "2026-06-11", matches: [
     { a: "Mexico", fa: "🇲🇽", b: "South Africa", fb: "🇿🇦", pt: "Final", et: "FT", venue: "Estadio Azteca", city: "Mexico City, MX", grp: "A", result: "2–0", marquee: true, why: "The opener. Co-hosts Mexico christened the tournament at the legendary Azteca with a 2–0 win." },
-    { a: "South Korea", fa: "🇰🇷", b: "Czechia", fb: "🇨🇿", pt: "7:00 PM", et: "10 PM ET", venue: "Estadio Akron", city: "Guadalajara, MX", grp: "A", why: "Son Heung-min's South Korea open against a tough Czechia." },
+    { a: "South Korea", fa: "🇰🇷", b: "Czechia", fb: "🇨🇿", pt: "7:00 PM", et: "10 PM ET", venue: "Estadio Akron", city: "Guadalajara, MX", grp: "A", result: "2–1", why: "Son Heung-min's South Korea open against a tough Czechia." },
   ]},
   { date: "12", dow: "Fri", iso: "2026-06-12", matches: [
-    { a: "USA", fa: "🇺🇸", b: "Paraguay", fb: "🇵🇾", pt: "6:00 PM", et: "9 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "D", marquee: true, usa: true, why: "The USMNT's tournament opener on home soil. The whole country tunes in." },
-    { a: "Canada", fa: "🇨🇦", b: "Bosnia & Herzegovina", fb: "🇧🇦", pt: "12:00 PM", et: "3 PM ET", venue: "BMO Field", city: "Toronto, CAN", grp: "B", marquee: true, why: "Co-hosts Canada kick off their home tournament in Toronto." },
+    { a: "USA", fa: "🇺🇸", b: "Paraguay", fb: "🇵🇾", pt: "6:00 PM", et: "9 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "D", result: "4–1", marquee: true, usa: true, why: "The USMNT's tournament opener on home soil. The whole country tunes in." },
+    { a: "Canada", fa: "🇨🇦", b: "Bosnia & Herzegovina", fb: "🇧🇦", pt: "12:00 PM", et: "3 PM ET", venue: "BMO Field", city: "Toronto, CAN", grp: "B", result: "1–1", marquee: true, why: "Co-hosts Canada kick off their home tournament in Toronto." },
   ]},
   { date: "13", dow: "Sat", iso: "2026-06-13", matches: [
-    { a: "Qatar", fa: "🇶🇦", b: "Switzerland", fb: "🇨🇭", pt: "12:00 PM", et: "3 PM ET", venue: "Levi's Stadium", city: "San Francisco Bay Area", grp: "B", why: "Switzerland begin their campaign against Qatar." },
-    { a: "Brazil", fa: "🇧🇷", b: "Morocco", fb: "🇲🇦", pt: "3:00 PM", et: "6 PM ET", venue: "MetLife Stadium", city: "East Rutherford, NJ", grp: "C", marquee: true, why: "Five-time champions Brazil open against 2022 semifinalists Morocco — a blockbuster first match." },
-    { a: "Haiti", fa: "🇭🇹", b: "Scotland", fb: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", pt: "6:00 PM", et: "9 PM ET", venue: "Gillette Stadium", city: "Boston, MA", grp: "C", why: "Scotland begin against debutants Haiti." },
-    { a: "Australia", fa: "🇦🇺", b: "Türkiye", fb: "🇹🇷", pt: "9:00 PM", et: "12 AM ET", venue: "BC Place", city: "Vancouver, CAN", grp: "D", why: "Two of the USA's group rivals open up in Vancouver." },
+    { a: "Qatar", fa: "🇶🇦", b: "Switzerland", fb: "🇨🇭", pt: "12:00 PM", et: "3 PM ET", venue: "Levi's Stadium", city: "San Francisco Bay Area", grp: "B", result: "1–1", why: "Switzerland begin their campaign against Qatar." },
+    { a: "Brazil", fa: "🇧🇷", b: "Morocco", fb: "🇲🇦", pt: "3:00 PM", et: "6 PM ET", venue: "MetLife Stadium", city: "East Rutherford, NJ", grp: "C", result: "1–1", marquee: true, why: "Five-time champions Brazil open against 2022 semifinalists Morocco — a blockbuster first match." },
+    { a: "Haiti", fa: "🇭🇹", b: "Scotland", fb: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", pt: "6:00 PM", et: "9 PM ET", venue: "Gillette Stadium", city: "Boston, MA", grp: "C", result: "0–1", why: "Scotland begin against debutants Haiti." },
+    { a: "Australia", fa: "🇦🇺", b: "Türkiye", fb: "🇹🇷", pt: "9:00 PM", et: "12 AM ET", venue: "BC Place", city: "Vancouver, CAN", grp: "D", result: "2–0", why: "Two of the USA's group rivals open up in Vancouver." },
   ], nba: [
     { label: "NBA Finals · Game 5", a: "Knicks", b: "Spurs", series: "NYK leads 3–1", pt: "5:30 PM", et: "8:30 PM ET", venue: "Frost Bank Center", city: "San Antonio", tv: "ABC", note: "Knicks can clinch their first title since 1973 — Wemby and San Antonio fighting what feels like destiny right now." },
   ]},
   { date: "14", dow: "Sun", iso: "2026-06-14", matches: [
-    { a: "Germany", fa: "🇩🇪", b: "Curaçao", fb: "🇨🇼", pt: "10:00 AM", et: "1 PM ET", venue: "NRG Stadium", city: "Houston, TX", grp: "E", marquee: true, why: "Four-time champions Germany against the smallest nation ever to reach a World Cup." },
-    { a: "Netherlands", fa: "🇳🇱", b: "Japan", fb: "🇯🇵", pt: "1:00 PM", et: "4 PM ET", venue: "AT&T Stadium", city: "Dallas, TX", grp: "F", marquee: true, why: "The Dutch begin against an exciting Japan side." },
-    { a: "Ivory Coast", fa: "🇨🇮", b: "Ecuador", fb: "🇪🇨", pt: "4:00 PM", et: "7 PM ET", venue: "Lincoln Financial Field", city: "Philadelphia, PA", grp: "E", why: "Two strong outsiders meet in Philadelphia." },
-    { a: "Sweden", fa: "🇸🇪", b: "Tunisia", fb: "🇹🇳", pt: "7:00 PM", et: "10 PM ET", venue: "Estadio BBVA", city: "Monterrey, MX", grp: "F", why: "Sweden open their Group F campaign." },
+    { a: "Germany", fa: "🇩🇪", b: "Curaçao", fb: "🇨🇼", pt: "10:00 AM", et: "1 PM ET", venue: "NRG Stadium", city: "Houston, TX", grp: "E", result: "7–1", marquee: true, why: "Four-time champions Germany against the smallest nation ever to reach a World Cup." },
+    { a: "Netherlands", fa: "🇳🇱", b: "Japan", fb: "🇯🇵", pt: "1:00 PM", et: "4 PM ET", venue: "AT&T Stadium", city: "Dallas, TX", grp: "F", result: "2–2", marquee: true, why: "The Dutch begin against an exciting Japan side." },
+    { a: "Ivory Coast", fa: "🇨🇮", b: "Ecuador", fb: "🇪🇨", pt: "4:00 PM", et: "7 PM ET", venue: "Lincoln Financial Field", city: "Philadelphia, PA", grp: "E", result: "1–0", why: "Two strong outsiders meet in Philadelphia." },
+    { a: "Sweden", fa: "🇸🇪", b: "Tunisia", fb: "🇹🇳", pt: "7:00 PM", et: "10 PM ET", venue: "Estadio BBVA", city: "Monterrey, MX", grp: "F", result: "5–1", why: "Sweden open their Group F campaign." },
   ]},
   { date: "15", dow: "Mon", iso: "2026-06-15", matches: [
-    { a: "Spain", fa: "🇪🇸", b: "Cape Verde", fb: "🇨🇻", pt: "9:00 AM", et: "12 PM ET", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "H", marquee: true, why: "European champions and tournament favorites Spain begin against debutants Cape Verde." },
-    { a: "Belgium", fa: "🇧🇪", b: "Egypt", fb: "🇪🇬", pt: "12:00 PM", et: "3 PM ET", venue: "Lumen Field", city: "Seattle, WA", grp: "G", seattle: true, why: "Salah's Egypt vs Belgium's golden generation — at Seattle's Lumen Field, your home stadium." },
-    { a: "Saudi Arabia", fa: "🇸🇦", b: "Uruguay", fb: "🇺🇾", pt: "3:00 PM", et: "6 PM ET", venue: "Hard Rock Stadium", city: "Miami, FL", grp: "H", why: "Uruguay open their campaign in Miami." },
-    { a: "Iran", fa: "🇮🇷", b: "New Zealand", fb: "🇳🇿", pt: "6:00 PM", et: "9 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "G", why: "Iran begin Group G against New Zealand." },
+    { a: "Spain", fa: "🇪🇸", b: "Cape Verde", fb: "🇨🇻", pt: "9:00 AM", et: "12 PM ET", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "H", result: "0–0", marquee: true, why: "European champions and tournament favorites Spain begin against debutants Cape Verde." },
+    { a: "Belgium", fa: "🇧🇪", b: "Egypt", fb: "🇪🇬", pt: "12:00 PM", et: "3 PM ET", venue: "Lumen Field", city: "Seattle, WA", grp: "G", result: "1–1", seattle: true, why: "Salah's Egypt vs Belgium's golden generation — at Seattle's Lumen Field, your home stadium." },
+    { a: "Saudi Arabia", fa: "🇸🇦", b: "Uruguay", fb: "🇺🇾", pt: "3:00 PM", et: "6 PM ET", venue: "Hard Rock Stadium", city: "Miami, FL", grp: "H", result: "1–1", why: "Uruguay open their campaign in Miami." },
+    { a: "Iran", fa: "🇮🇷", b: "New Zealand", fb: "🇳🇿", pt: "6:00 PM", et: "9 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "G", result: "2–2", why: "Iran begin Group G against New Zealand." },
   ]},
   { date: "16", dow: "Tue", iso: "2026-06-16", matches: [
-    { a: "France", fa: "🇫🇷", b: "Senegal", fb: "🇸🇳", pt: "12:00 PM", et: "3 PM ET", venue: "MetLife Stadium", city: "East Rutherford, NJ", grp: "I", marquee: true, why: "France, 2018 champions and 2022 finalists, open against a dangerous Senegal led by Sadio Mané." },
-    { a: "Iraq", fa: "🇮🇶", b: "Norway", fb: "🇳🇴", pt: "3:00 PM", et: "6 PM ET", venue: "Gillette Stadium", city: "Boston, MA", grp: "I", why: "Erling Haaland's Norway begin their first World Cup since 1998." },
-    { a: "Argentina", fa: "🇦🇷", b: "Algeria", fb: "🇩🇿", pt: "6:00 PM", et: "9 PM ET", venue: "Arrowhead Stadium", city: "Kansas City, MO", grp: "J", marquee: true, why: "The defending champions, led by Lionel Messi in likely his final World Cup, begin their title defense." },
-    { a: "Austria", fa: "🇦🇹", b: "Jordan", fb: "🇯🇴", pt: "9:00 PM", et: "12 AM ET", venue: "Levi's Stadium", city: "San Francisco Bay Area", grp: "J", why: "Austria face tournament debutants Jordan." },
+    { a: "France", fa: "🇫🇷", b: "Senegal", fb: "🇸🇳", pt: "12:00 PM", et: "3 PM ET", venue: "MetLife Stadium", city: "East Rutherford, NJ", grp: "I", result: "3–1", marquee: true, why: "France, 2018 champions and 2022 finalists, open against a dangerous Senegal led by Sadio Mané." },
+    { a: "Iraq", fa: "🇮🇶", b: "Norway", fb: "🇳🇴", pt: "3:00 PM", et: "6 PM ET", venue: "Gillette Stadium", city: "Boston, MA", grp: "I", result: "1–4", why: "Erling Haaland's Norway begin their first World Cup since 1998." },
+    { a: "Argentina", fa: "🇦🇷", b: "Algeria", fb: "🇩🇿", pt: "6:00 PM", et: "9 PM ET", venue: "Arrowhead Stadium", city: "Kansas City, MO", grp: "J", result: "3–0", marquee: true, why: "The defending champions, led by Lionel Messi in likely his final World Cup, begin their title defense." },
+    { a: "Austria", fa: "🇦🇹", b: "Jordan", fb: "🇯🇴", pt: "9:00 PM", et: "12 AM ET", venue: "Levi's Stadium", city: "San Francisco Bay Area", grp: "J", result: "3–1", why: "Austria face tournament debutants Jordan." },
   ], nba: [
     { label: "NBA Finals · Game 6", a: "Spurs", b: "Knicks", series: "if necessary", pt: "5:30 PM", et: "8:30 PM ET", venue: "Madison Square Garden", city: "New York", tv: "ABC", ifNec: true, note: "Only if the Spurs extend the series in Game 5. Back at MSG — JJW watching at 30k feet." },
   ]},
   { date: "17", dow: "Wed", iso: "2026-06-17", matches: [
-    { a: "Portugal", fa: "🇵🇹", b: "DR Congo", fb: "🇨🇩", pt: "10:00 AM", et: "1 PM ET", venue: "NRG Stadium", city: "Houston, TX", grp: "K", marquee: true, why: "Cristiano Ronaldo's Portugal, perennial contenders, open against an athletic DR Congo." },
-    { a: "England", fa: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", b: "Croatia", fb: "🇭🇷", pt: "1:00 PM", et: "4 PM ET", venue: "AT&T Stadium", city: "Dallas, TX", grp: "L", marquee: true, why: "A rematch of the 2018 semifinal. England, long-awaiting a trophy, face the ever-resilient Croatia." },
-    { a: "Ghana", fa: "🇬🇭", b: "Panama", fb: "🇵🇦", pt: "4:00 PM", et: "7 PM ET", venue: "BMO Field", city: "Toronto, CAN", grp: "L", why: "Ghana's Black Stars open against a spirited Panama." },
-    { a: "Uzbekistan", fa: "🇺🇿", b: "Colombia", fb: "🇨🇴", pt: "7:00 PM", et: "10 PM ET", venue: "Estadio Azteca", city: "Mexico City, MX", grp: "K", why: "Debutants Uzbekistan face a talented Colombia at the iconic Azteca." },
+    { a: "Portugal", fa: "🇵🇹", b: "DR Congo", fb: "🇨🇩", pt: "10:00 AM", et: "1 PM ET", venue: "NRG Stadium", city: "Houston, TX", grp: "K", result: "1–1", marquee: true, why: "Cristiano Ronaldo's Portugal, perennial contenders, open against an athletic DR Congo." },
+    { a: "England", fa: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", b: "Croatia", fb: "🇭🇷", pt: "1:00 PM", et: "4 PM ET", venue: "AT&T Stadium", city: "Dallas, TX", grp: "L", result: "4–2", marquee: true, why: "A rematch of the 2018 semifinal. England, long-awaiting a trophy, face the ever-resilient Croatia." },
+    { a: "Ghana", fa: "🇬🇭", b: "Panama", fb: "🇵🇦", pt: "4:00 PM", et: "7 PM ET", venue: "BMO Field", city: "Toronto, CAN", grp: "L", result: "1–0", why: "Ghana's Black Stars open against a spirited Panama." },
+    { a: "Uzbekistan", fa: "🇺🇿", b: "Colombia", fb: "🇨🇴", pt: "7:00 PM", et: "10 PM ET", venue: "Estadio Azteca", city: "Mexico City, MX", grp: "K", result: "1–3", why: "Debutants Uzbekistan face a talented Colombia at the iconic Azteca." },
   ]},
   { date: "18", dow: "Thu", iso: "2026-06-18", matches: [
-    { a: "Czechia", fa: "🇨🇿", b: "South Africa", fb: "🇿🇦", pt: "9:00 AM", et: "12 PM ET", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "A", why: "Both sides chasing a vital early result in Group A." },
-    { a: "Switzerland", fa: "🇨🇭", b: "Bosnia & Herzegovina", fb: "🇧🇦", pt: "12:00 PM", et: "3 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "B", why: "Switzerland, reliable performers, face a Bosnia side eager to make a mark." },
-    { a: "Canada", fa: "🇨🇦", b: "Qatar", fb: "🇶🇦", pt: "3:00 PM", et: "6 PM ET", venue: "BC Place", city: "Vancouver, CAN", grp: "B", marquee: true, why: "Co-hosts Canada play in Vancouver — the closest match to Orcas, a short hop north." },
+    { a: "Czechia", fa: "🇨🇿", b: "South Africa", fb: "🇿🇦", pt: "9:00 AM", et: "12 PM ET", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "A", result: "1–1", why: "Both sides chasing a vital early result in Group A." },
+    { a: "Switzerland", fa: "🇨🇭", b: "Bosnia & Herzegovina", fb: "🇧🇦", pt: "12:00 PM", et: "3 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "B", result: "4–1", why: "Switzerland, reliable performers, face a Bosnia side eager to make a mark." },
+    { a: "Canada", fa: "🇨🇦", b: "Qatar", fb: "🇶🇦", pt: "3:00 PM", et: "6 PM ET", venue: "BC Place", city: "Vancouver, CAN", grp: "B", live: true, liveScore: "4–0", minute: "64'", marquee: true, why: "Co-hosts Canada play in Vancouver — the closest match to Orcas, a short hop north." },
     { a: "Mexico", fa: "🇲🇽", b: "South Korea", fb: "🇰🇷", pt: "6:00 PM", et: "9 PM ET", venue: "Estadio Akron", city: "Guadalajara, MX", grp: "A", marquee: true, why: "Co-hosts Mexico in front of a roaring home crowd against a sharp South Korea." },
   ]},
   { date: "19", dow: "Fri", iso: "2026-06-19", matches: [
@@ -1109,6 +1109,10 @@ export default function Orcas2026() {
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(8px); }
           }
+          @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(1.3); }
+          }
         `}</style>
       </section>
 
@@ -1674,7 +1678,7 @@ export default function Orcas2026() {
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
           <FadeIn>
             <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-              <SectionTitle light sub="Every match, June 11 → the July 19 Final · times in Pacific · opens on today's games">⚽ World Cup 2026</SectionTitle>
+              <SectionTitle light sub="Every match, June 11 → the July 19 Final · times in Pacific · scores updated June 18">⚽ World Cup 2026</SectionTitle>
               <div style={{ fontFamily: fontHead, fontSize: 14, color: COLORS.stone, fontStyle: "italic" }}>
                 USA · Canada · Mexico
               </div>
@@ -1834,7 +1838,11 @@ export default function Orcas2026() {
                               </div>
                             </div>
                             <div style={{ textAlign: "right", flexShrink: 0 }}>
-                              {m.result ? (
+                              {m.live ? (
+                                <div style={{ fontFamily: fontHead, fontSize: 20, color: COLORS.coral, lineHeight: 1 }}>
+                                  {m.liveScore}
+                                </div>
+                              ) : m.result ? (
                                 <div style={{ fontFamily: fontHead, fontSize: 20, color: COLORS.seafoam, lineHeight: 1 }}>
                                   {m.result}
                                 </div>
@@ -1843,8 +1851,13 @@ export default function Orcas2026() {
                                   {m.pt}
                                 </div>
                               )}
-                              <div style={{ fontSize: 10, color: COLORS.slate, marginTop: 2 }}>
-                                {m.result ? "Full time" : `PT · ${m.et}`}
+                              <div style={{ fontSize: 10, color: m.live ? COLORS.coral : COLORS.slate, marginTop: 2, display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 4 }}>
+                                {m.live ? (
+                                  <>
+                                    <span style={{ width: 6, height: 6, borderRadius: "50%", background: COLORS.coral, display: "inline-block", animation: "pulse 1.4s ease-in-out infinite" }} />
+                                    LIVE · {m.minute}
+                                  </>
+                                ) : m.result ? "Full time" : `PT · ${m.et}`}
                               </div>
                               <div style={{
                                 fontSize: 9, color: COLORS.cedar, marginTop: 6,
