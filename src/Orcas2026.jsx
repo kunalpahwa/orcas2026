@@ -3049,26 +3049,30 @@ export default function Orcas2026() {
                   {
                     icon: UtensilsCrossed, title: "Dinner & eats",
                     items: [
-                      ["Yanni's", "Everyone's favorite Greek spot — gyros, avgolemono, endless pita."],
-                      ["Ada's (Turkish) & Roy Southern Thai", "Two of the ridge's standouts — mezze at one, fiery southern Thai at the other."],
-                      ["The Cavatelli Project @ Holy Mountain", "Handmade pasta pop-up inside the brewery taproom. Plan around it."],
-                      ["Doe Bay Wine Co.", "Island-connected wine bar tucked in the Renee Erickson courtyard."],
+                      ["Lioness", "Renee Erickson's buzzy Italian small-plates spot on Greenwood — burrata with a kick, brothy clams, spritzes at the standing bar."],
+                      ["Ada's & Bongos", "Ada's for Turkish mezze; Bongos for a laid-back Caribbean patio (jerk, plantains, rum)."],
+                      ["Thaiku", "Longtime Ballard Thai favorite — herbal, punchy, great for a group, with a tucked-away cocktail bar (Fu Kun Wu)."],
+                      ["Delancey", "Ballard's celebrated wood-fired pizzeria. Worth the trip and the wait — book ahead."],
+                      ["Fortuna", "Italian sandwich shop / bottega on Greenwood — porchetta, mortadella, the good stuff to go."],
+                      ["Red Mill Burgers", "A Seattle institution since '94. Charbroiled burgers, onion rings, milkshakes — don't skip the rings."],
                     ],
                   },
                   {
                     icon: Beer, title: "Burgers & bars",
                     items: [
-                      ["Red Mill Burgers", "A Seattle institution. Charbroiled burgers, onion rings, milkshakes — don't skip the rings."],
+                      ["Holy Mountain Brewing", "Phinney's destination taproom — barrel-aged and wild ales, big rotating list, easy patio energy."],
                       ["Ridgewood Bottle & Tap", "Huge beer & cider list, plus spiked slushies. Easygoing neighborhood bar."],
                       ["Prost! / Oliver's Twist", "German beer hall energy, or creative cocktails and small plates a few doors down."],
+                      ["Doe Bay Wine Co.", "Island-connected wine bar tucked in the courtyard — a nice pre-dinner glass."],
                     ],
                   },
                   {
                     icon: IceCream, title: "Sweets & groceries",
                     items: [
                       ["Bluebird Ice Cream", "Greenwood microcreamery — small-batch scoops, a kid magnet."],
-                      ["Fred Meyer (Greenwood)", "The big one-stop for groceries and anything you forgot."],
-                      ["Mainstay Provisions", "Specialty market + coffee bar with weekend pizza and pantry goods."],
+                      ["Nutty Squirrel Gelato", "Phinney's own gelato shop on Greenwood — rotating flavors, dairy-free options."],
+                      ["Ken's Market", "Beloved independent neighborhood grocer up on the ridge — great butcher and deli."],
+                      ["PCC Community Market", "The local co-op — organic produce, prepared foods, everything for the house."],
                     ],
                   },
                 ].map(({ icon: Icon, title, items }) => (
