@@ -1,3 +1,12 @@
 node_modules
 dist
 .DS_Store
+
+# Local env files (Supabase keys live here, never commit)
+.env.local
+.env*.local
+.env
+
+# Build scaffolding — the Jackson reference contains a hardcoded key; keep it out of the repo
+JACKSON-SPLITTER-REFERENCE.jsx
+SPLITTER-BRIEF.md
