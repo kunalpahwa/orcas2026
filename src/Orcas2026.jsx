@@ -449,15 +449,6 @@ const INTEL = [
         tag: "Must do",
       },
       {
-        name: "Buck Bay Shellfish Farm",
-        category: "eat",
-        quote: "Really popular reputation for good oysters on the water. I haven't been in like 10 years but good memories!",
-        note: "Temporarily closed — but we're conducting due diligence on it for a potential LBO. Oysters on the water near Doe Bay. Synergies TBD.",
-        kidFriendly: false,
-        search: "Buck Bay Shellfish Farm Orcas Island",
-        tag: "Under review",
-      },
-      {
         name: "Moran State Park",
         category: "do",
         quote: "Great hiking and public waterfront — lake swimming here that might be a little warmer than Puget Sound, which is cold all year",
@@ -2251,6 +2242,90 @@ export default function Orcas2026() {
                   </a>
                 </div>
               </div>
+            </div>
+          </FadeIn>
+
+          {/* Where to eat on Orcas */}
+          <FadeIn delay={0.08}>
+            <div style={{ marginBottom: 36 }}>
+              <div style={{ fontFamily: fontHead, fontSize: 24, color: COLORS.navy, marginBottom: 4 }}>
+                Where to eat on Orcas
+              </div>
+              <p style={{ fontSize: 13, color: COLORS.slate, lineHeight: 1.7, maxWidth: 660, marginBottom: 6 }}>
+                Most of the island's dining is in and around Eastsound, a few minutes from the house. Island spots keep small, seasonal hours and the good ones fill up — for dinners out, reserve ahead, and for anything off the beaten path, a quick call to confirm hours never hurts.
+              </p>
+              <p style={{ fontSize: 12, color: COLORS.cedar, fontStyle: "italic", marginBottom: 22 }}>
+                Tap any place to look it up.
+              </p>
+
+              {(() => {
+                const eatLink = (name) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + " Orcas Island")}`;
+                const groups = [
+                  {
+                    icon: "🦪", title: "Seafood & oysters",
+                    items: [
+                      ["Crescent Beach Oyster Farm", "Roadside oyster stand near Eastsound — grab fresh oysters to shuck back at the house. The easy on-island oyster fix."],
+                      ["Westcott Bay Shellfish Co.", "The legendary shuck-your-own-over-the-water oyster farm — but it's on San Juan Island, so it's a full day trip (inter-island ferry + drive). Reservations fill a month out. Worth it if the crew's up for island-hopping."],
+                    ],
+                  },
+                  {
+                    icon: "🍽️", title: "Dinner & special occasion",
+                    items: [
+                      ["Matia Kitchen", "The island's fine-dining gem — James Beard–nominated tasting menus, open kitchen, in the old Monti space. Book ahead."],
+                      ["Hogstone's", "Wood-fired, farm-driven cooking that put Orcas on the food map. Intimate; reserve early."],
+                      ["Inn at Ship Bay", "Refined seasonal dining above a working orchard with bay views — perfect for a golden-hour dinner."],
+                      ["New Leaf Café", "Northwest fare at the Outlook Inn — crab cakes, wild salmon, strong wine list, water views. A nice night out."],
+                      ["Doe Bay Café", "Organic garden-to-table at Doe Bay Resort, with some of the best water views on the island."],
+                    ],
+                  },
+                  {
+                    icon: "🍔", title: "Casual, lunch & family",
+                    items: [
+                      ["Madrona Bar & Grill", "Right on Eastsound Bay — seafood, burgers, halibut tacos and chowder. The reliable, view-y, kid-friendly go-to."],
+                      ["Mijitas Mexican Kitchen", "Bright Mexican spot — house tortillas, wild-caught seafood tacos, margaritas, and a great patio."],
+                      ["Island Hoppin' Brewery", "The local taproom — easygoing, kids and dogs welcome, a good low-key evening."],
+                    ],
+                  },
+                  {
+                    icon: "🥐", title: "Coffee, bakery & breakfast",
+                    items: [
+                      ["Brown Bear Baking", "The famous one — buttery croissants, galettes, strong espresso. Expect a line; it's worth it."],
+                      ["Olga Rising", "Beloved for its buttermilk-biscuit breakfast sandwiches and pastries. People genuinely dream about these."],
+                      ["Island Skillet", "Casual daytime breakfast classics in generous portions — easy with the kids."],
+                      ["Roses Bakery Café", "Bakery, provisions, and a lovely lunch — great for stocking up too."],
+                    ],
+                  },
+                  {
+                    icon: "🍸", title: "Drinks",
+                    items: [
+                      ["The Barnacle", "Intimate Eastsound cocktail lounge — island-inspired drinks, wine, and craft beer."],
+                      ["Orcas Island Winery", "Tasting room for a relaxed afternoon glass."],
+                    ],
+                  },
+                ];
+                return (
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 16 }}>
+                    {groups.map(({ icon, title, items }) => (
+                      <div key={title} style={{
+                        background: "white", borderRadius: 14, padding: "20px 22px",
+                        border: `1px solid ${COLORS.sand}`,
+                      }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+                          <span style={{ fontSize: 18 }}>{icon}</span>
+                          <span style={{ fontFamily: fontHead, fontSize: 17, color: COLORS.navy }}>{title}</span>
+                        </div>
+                        {items.map(([name, desc]) => (
+                          <a key={name} href={eatLink(name)} target="_blank" rel="noopener noreferrer"
+                            style={{ display: "block", marginBottom: 12, textDecoration: "none" }}>
+                            <div style={{ fontSize: 13, fontWeight: 600, color: COLORS.forest }}>{name}</div>
+                            <div style={{ fontSize: 12, color: COLORS.slate, lineHeight: 1.55, marginTop: 2 }}>{desc}</div>
+                          </a>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                );
+              })()}
             </div>
           </FadeIn>
 
