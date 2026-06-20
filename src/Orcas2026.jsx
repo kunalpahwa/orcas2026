@@ -207,13 +207,13 @@ const WC_DATA = [
   { date: "18", dow: "Thu", iso: "2026-06-18", matches: [
     { a: "Czechia", fa: "🇨🇿", b: "South Africa", fb: "🇿🇦", pt: "9:00 AM", et: "12 PM ET", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "A", result: "1–1", why: "Both sides chasing a vital early result in Group A." },
     { a: "Switzerland", fa: "🇨🇭", b: "Bosnia & Herzegovina", fb: "🇧🇦", pt: "12:00 PM", et: "3 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "B", result: "4–1", why: "Switzerland, reliable performers, face a Bosnia side eager to make a mark." },
-    { a: "Canada", fa: "🇨🇦", b: "Qatar", fb: "🇶🇦", pt: "3:00 PM", et: "6 PM ET", venue: "BC Place", city: "Vancouver, CAN", grp: "B", live: true, liveScore: "4–0", minute: "64'", marquee: true, why: "Co-hosts Canada play in Vancouver — the closest match to Orcas, a short hop north." },
-    { a: "Mexico", fa: "🇲🇽", b: "South Korea", fb: "🇰🇷", pt: "6:00 PM", et: "9 PM ET", venue: "Estadio Akron", city: "Guadalajara, MX", grp: "A", marquee: true, why: "Co-hosts Mexico in front of a roaring home crowd against a sharp South Korea." },
+    { a: "Canada", fa: "🇨🇦", b: "Qatar", fb: "🇶🇦", pt: "3:00 PM", et: "6 PM ET", venue: "BC Place", city: "Vancouver, CAN", grp: "B", result: "6–0", marquee: true, why: "Co-hosts Canada play in Vancouver — the closest match to Orcas, a short hop north." },
+    { a: "Mexico", fa: "🇲🇽", b: "South Korea", fb: "🇰🇷", pt: "6:00 PM", et: "9 PM ET", venue: "Estadio Akron", city: "Guadalajara, MX", grp: "A", result: "1–0", marquee: true, why: "Co-hosts Mexico in front of a roaring home crowd against a sharp South Korea." },
   ]},
   { date: "19", dow: "Fri", iso: "2026-06-19", matches: [
-    { a: "USA", fa: "🇺🇸", b: "Australia", fb: "🇦🇺", pt: "12:00 PM", et: "3 PM ET", venue: "Lumen Field", city: "Seattle, WA", grp: "D", marquee: true, seattle: true, usa: true, why: "THE match. The USMNT plays in Seattle — your backyard. Whether you attend or watch, this is the centerpiece of the Seattle leg." },
-    { a: "Scotland", fa: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", b: "Morocco", fb: "🇲🇦", pt: "3:00 PM", et: "6 PM ET", venue: "Gillette Stadium", city: "Boston, MA", grp: "C", why: "Morocco, 2022 semifinalists, meet a Scotland side fighting to advance." },
-    { a: "Brazil", fa: "🇧🇷", b: "Haiti", fb: "🇭🇹", pt: "6:00 PM", et: "9 PM ET", venue: "Lincoln Financial Field", city: "Philadelphia, PA", grp: "C", marquee: true, why: "Five-time champions Brazil, dripping with attacking talent, take on Haiti." },
+    { a: "USA", fa: "🇺🇸", b: "Australia", fb: "🇦🇺", pt: "12:00 PM", et: "3 PM ET", venue: "Lumen Field", city: "Seattle, WA", grp: "D", result: "2–0", marquee: true, seattle: true, usa: true, why: "THE match. The USMNT plays in Seattle — your backyard. Whether you attend or watch, this is the centerpiece of the Seattle leg." },
+    { a: "Scotland", fa: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", b: "Morocco", fb: "🇲🇦", pt: "3:00 PM", et: "6 PM ET", venue: "Gillette Stadium", city: "Boston, MA", grp: "C", result: "0–1", why: "Morocco, 2022 semifinalists, meet a Scotland side fighting to advance." },
+    { a: "Brazil", fa: "🇧🇷", b: "Haiti", fb: "🇭🇹", pt: "6:00 PM", et: "9 PM ET", venue: "Lincoln Financial Field", city: "Philadelphia, PA", grp: "C", result: "3–0", marquee: true, why: "Five-time champions Brazil, dripping with attacking talent, take on Haiti." },
     { a: "Türkiye", fa: "🇹🇷", b: "Paraguay", fb: "🇵🇾", pt: "9:00 PM", et: "12 AM ET", venue: "Levi's Stadium", city: "San Francisco Bay Area", grp: "D", why: "Both chasing ground in USA's group — a result here shapes the USMNT's path." },
   ], nba: [
     { label: "NBA Finals · Game 7", a: "Knicks", b: "Spurs", series: "if necessary", pt: "5:30 PM", et: "8:30 PM ET", venue: "Frost Bank Center", city: "San Antonio", tv: "ABC", ifNec: true, note: "If it gets to this point, it's a series for the ages — and the making of the best sports day ever, same night as USA vs Australia." },
@@ -1678,7 +1678,7 @@ export default function Orcas2026() {
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
           <FadeIn>
             <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-              <SectionTitle light sub="Every match, June 11 → the July 19 Final · times in Pacific · scores updated June 18">⚽ World Cup 2026</SectionTitle>
+              <SectionTitle light sub="Every match, June 11 → the July 19 Final · times in Pacific · scores updated June 19">⚽ World Cup 2026</SectionTitle>
               <div style={{ fontFamily: fontHead, fontSize: 14, color: COLORS.stone, fontStyle: "italic" }}>
                 USA · Canada · Mexico
               </div>
