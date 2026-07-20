@@ -276,56 +276,45 @@ const WC_DATA = [
     { a: "Jordan", fa: "🇯🇴", b: "Argentina", fb: "🇦🇷", pt: "7:00 PM", et: "10 PM ET", venue: "AT&T Stadium", city: "Dallas, TX", grp: "J", marquee: true, why: "Messi & the champions wrap up the group stage." },
   ]},
   { date: "28", dow: "Sun", iso: "2026-06-28", knockout: true, round: "Round of 32", matches: [
-    { a: "Runner-up A", fa: "🏆", b: "Runner-up B", fb: "🏆", pt: "12:00 PM", et: "3 PM ET", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "R32", marquee: true, why: "The knockouts begin — the brand-new Round of 32, the first extra knockout round in World Cup history. Matchups confirmed once the group stage ends June 27." },
-  ]},
-  { date: "29", dow: "Mon", iso: "2026-06-29", knockout: true, round: "Round of 32", matches: [
-    { a: "Winner C", fa: "🏆", b: "Runner-up F", fb: "🏆", pt: "10:00 AM", et: "1 PM ET", venue: "NRG Stadium", city: "Houston, TX", grp: "R32", why: "Round of 32 continues across the US, Mexico, and Canada. Exact teams set after the group tables finalize." },
-  ]},
-  { date: "30", dow: "Tue", iso: "2026-06-30", knockout: true, round: "Round of 32", matches: [
-    { a: "Round of 32", fa: "🏆", b: "continues", fb: "⚽", pt: "Multiple", et: "—", venue: "Multiple venues", city: "USA · Canada · Mexico", grp: "R32", why: "More Round of 32 knockout drama. Matchups depend on the final group standings — they'll fill in here as confirmed." },
-  ]},
-  { date: "1", dow: "Wed", iso: "2026-07-01", month: "Jul", knockout: true, round: "Round of 32", matches: [
-    { a: "Round of 32", fa: "🏆", b: "if USA win Group D", fb: "🇺🇸", pt: "TBD", et: "—", venue: "Levi's Stadium", city: "San Francisco Bay Area", grp: "R32", usa: true, why: "If the USA win Group D, this is their Round of 32 match at Levi's Stadium. Win it and they head to Seattle on July 6." },
-  ]},
-  { date: "2", dow: "Thu", iso: "2026-07-02", month: "Jul", knockout: true, round: "Round of 32", matches: [
-    { a: "Round of 32", fa: "🏆", b: "continues", fb: "⚽", pt: "TBD", et: "—", venue: "Multiple venues", city: "USA · Mexico", grp: "R32", why: "Round of 32 continues." },
-  ]},
-  { date: "3", dow: "Fri", iso: "2026-07-03", month: "Jul", knockout: true, round: "Round of 32", matches: [
-    { a: "Round of 32 finale", fa: "🏆", b: "if USA 2nd in D", fb: "🇺🇸", pt: "TBD", et: "—", venue: "AT&T Stadium", city: "Dallas, TX", grp: "R32", usa: true, why: "Final R32 matches. If the USA finish 2nd in Group D, they'd play here at AT&T Stadium in Dallas." },
+    { a: "Round of 32", fa: "🏆", b: "the knockouts begin", fb: "⚽", pt: "Multiple", et: "—", venue: "Multiple venues", city: "USA · Canada · Mexico", grp: "R32", marquee: true, why: "The knockouts begin — the brand-new Round of 32, the first extra knockout round in World Cup history. The bracket narrows to 16 by July 3." },
   ]},
   { date: "4", dow: "Sat", iso: "2026-07-04", month: "Jul", knockout: true, round: "Round of 16", matches: [
-    { a: "Round of 16", fa: "🏆", b: "begins", fb: "⚽", pt: "TBD", et: "—", venue: "Multiple venues", city: "USA · Canada · Mexico", grp: "R16", marquee: true, why: "The traditional Round of 16 begins (July 4–7). The 16 R32 winners battle on. A fitting Fourth of July watch." },
+    { a: "Morocco", fa: "🇲🇦", b: "Canada", fb: "🇨🇦", pt: "Final", et: "FT", venue: "BMO Field", city: "Toronto, CAN", grp: "R16", result: "3–0", marquee: true, why: "Morocco pick up where 2022 left off and end the co-hosts' tournament. Canada out." },
+    { a: "France", fa: "🇫🇷", b: "Paraguay", fb: "🇵🇾", pt: "Final", et: "FT", venue: "Levi's Stadium", city: "San Francisco Bay Area", grp: "R16", result: "1–0", why: "France grind out a narrow one and move on. A fitting Fourth of July watch." },
   ]},
   { date: "5", dow: "Sun", iso: "2026-07-05", month: "Jul", knockout: true, round: "Round of 16", matches: [
-    { a: "Round of 16", fa: "🏆", b: "continues", fb: "⚽", pt: "TBD", et: "—", venue: "Estadio Azteca + more", city: "Mexico City & more", grp: "R16", why: "Round of 16 continues. Mexico's last possible home match is at the Azteca on July 5." },
+    { a: "Norway", fa: "🇳🇴", b: "Brazil", fb: "🇧🇷", pt: "Final", et: "FT", venue: "Lincoln Financial Field", city: "Philadelphia, PA", grp: "R16", result: "2–1", marquee: true, why: "The upset of the tournament — Haaland's Norway knock out five-time champions Brazil." },
+    { a: "England", fa: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", b: "Mexico", fb: "🇲🇽", pt: "Final", et: "FT", venue: "Estadio Azteca", city: "Mexico City, MX", grp: "R16", result: "3–2", marquee: true, why: "A classic at the Azteca. England edge it and the co-hosts' run ends on home soil." },
   ]},
   { date: "6", dow: "Mon", iso: "2026-07-06", month: "Jul", knockout: true, round: "Round of 16", matches: [
-    { a: "Round of 16", fa: "🏆", b: "in Seattle", fb: "📍", pt: "TBD", et: "—", venue: "Lumen Field", city: "Seattle, WA", grp: "R16", seattle: true, why: "A Round of 16 match at Seattle's Lumen Field. If the USA win Group D and their R32, this is their path." },
+    { a: "Spain", fa: "🇪🇸", b: "Portugal", fb: "🇵🇹", pt: "Final", et: "FT", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "R16", result: "1–0", marquee: true, why: "Merino's stoppage-time winner settles the Iberian derby — and ends Cristiano Ronaldo's World Cup career." },
+    { a: "Belgium", fa: "🇧🇪", b: "USA", fb: "🇺🇸", pt: "Final", et: "FT", venue: "Lumen Field", city: "Seattle, WA", grp: "R16", result: "4–1", marquee: true, seattle: true, usa: true, why: "The USMNT's run ends at Lumen Field — your home stadium, a home Round of 16, and Belgium's golden generation were too much." },
   ]},
   { date: "7", dow: "Tue", iso: "2026-07-07", month: "Jul", knockout: true, round: "Round of 16", matches: [
-    { a: "Round of 16 finale", fa: "🏆", b: "continues", fb: "⚽", pt: "TBD", et: "—", venue: "BC Place + Atlanta", city: "Vancouver & Atlanta", grp: "R16", why: "Final Round of 16 matches. Canada's last possible home match is at BC Place on July 7." },
+    { a: "Argentina", fa: "🇦🇷", b: "Egypt", fb: "🇪🇬", pt: "Final", et: "FT", venue: "AT&T Stadium", city: "Dallas, TX", grp: "R16", result: "3–2", marquee: true, why: "Egypt led 2–0. Messi and the champions came back and won it — the comeback of the round." },
+    { a: "Switzerland", fa: "🇨🇭", b: "Colombia", fb: "🇨🇴", pt: "Final", et: "PKs", venue: "BC Place", city: "Vancouver, CAN", grp: "R16", result: "0–0 (4–3 pens)", why: "Goalless through 120 in Vancouver. Switzerland hold their nerve from the spot, 4–3." },
   ]},
   { date: "9", dow: "Thu", iso: "2026-07-09", month: "Jul", knockout: true, round: "Quarterfinal", matches: [
-    { a: "Quarterfinal 1", fa: "🏆", b: "⚽", fb: "⚽", pt: "TBD", et: "—", venue: "Gillette Stadium", city: "Boston, MA", grp: "QF", marquee: true, why: "The quarterfinals begin in Boston. Eight teams left, the tournament's business end." },
+    { a: "France", fa: "🇫🇷", b: "Morocco", fb: "🇲🇦", pt: "Final", et: "FT", venue: "Gillette Stadium", city: "Boston, MA", grp: "QF", result: "2–0", marquee: true, why: "A rematch of the 2022 semifinal, and the same result. Mbappé decisive as France reach the last four." },
   ]},
   { date: "10", dow: "Fri", iso: "2026-07-10", month: "Jul", knockout: true, round: "Quarterfinal", matches: [
-    { a: "Quarterfinal 2", fa: "🏆", b: "⚽", fb: "⚽", pt: "TBD", et: "—", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "QF", marquee: true, why: "Quarterfinal at SoFi in Los Angeles." },
+    { a: "Spain", fa: "🇪🇸", b: "Belgium", fb: "🇧🇪", pt: "Final", et: "FT", venue: "SoFi Stadium", city: "Los Angeles, CA", grp: "QF", result: "2–1", marquee: true, why: "The favorites survive a real test at SoFi. Belgium's golden generation bow out one round short again." },
   ]},
   { date: "11", dow: "Sat", iso: "2026-07-11", month: "Jul", knockout: true, round: "Quarterfinal", matches: [
-    { a: "Quarterfinal 3", fa: "🏆", b: "⚽", fb: "⚽", pt: "2:00 PM", et: "5 PM ET", venue: "Hard Rock Stadium", city: "Miami, FL", grp: "QF", marquee: true, why: "Quarterfinal in Miami." },
-    { a: "Quarterfinal 4", fa: "🏆", b: "⚽", fb: "⚽", pt: "6:00 PM", et: "9 PM ET", venue: "Arrowhead Stadium", city: "Kansas City, MO", grp: "QF", marquee: true, why: "Quarterfinal in Kansas City." },
+    { a: "England", fa: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", b: "Norway", fb: "🇳🇴", pt: "Final", et: "AET", venue: "Hard Rock Stadium", city: "Miami, FL", grp: "QF", result: "2–1", marquee: true, why: "Extra time in Miami ends Norway's fairytale. England into the semifinals." },
+    { a: "Argentina", fa: "🇦🇷", b: "Switzerland", fb: "🇨🇭", pt: "Final", et: "AET", venue: "Arrowhead Stadium", city: "Kansas City, MO", grp: "QF", result: "3–1", marquee: true, why: "Ten-man Switzerland held on until Álvarez's 112th-minute golazo broke it open." },
   ]},
   { date: "14", dow: "Tue", iso: "2026-07-14", month: "Jul", knockout: true, round: "Semifinal", matches: [
-    { a: "Semifinal 1", fa: "🏆", b: "⚽", fb: "⚽", pt: "12:00 PM", et: "3 PM ET", venue: "AT&T Stadium", city: "Dallas, TX", grp: "SF", marquee: true, why: "The first semifinal in Dallas. Two wins from glory." },
+    { a: "Spain", fa: "🇪🇸", b: "France", fb: "🇫🇷", pt: "Final", et: "FT", venue: "AT&T Stadium", city: "Dallas, TX", grp: "SF", result: "2–0", marquee: true, why: "Spain were the better side all evening in Dallas. Into the final without conceding." },
   ]},
   { date: "15", dow: "Wed", iso: "2026-07-15", month: "Jul", knockout: true, round: "Semifinal", matches: [
-    { a: "Semifinal 2", fa: "🏆", b: "⚽", fb: "⚽", pt: "12:00 PM", et: "3 PM ET", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "SF", marquee: true, why: "The second semifinal in Atlanta. The second finalist is decided." },
+    { a: "Argentina", fa: "🇦🇷", b: "England", fb: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", pt: "Final", et: "FT", venue: "Mercedes-Benz Stadium", city: "Atlanta, GA", grp: "SF", result: "2–1", marquee: true, why: "Messi and Lautaro late in Atlanta. England's wait goes on; the champions get one more final." },
   ]},
   { date: "18", dow: "Sat", iso: "2026-07-18", month: "Jul", knockout: true, round: "Third Place", matches: [
-    { a: "Third-Place Match", fa: "🥉", b: "⚽", fb: "⚽", pt: "2:00 PM", et: "5 PM ET", venue: "Hard Rock Stadium", city: "Miami, FL", grp: "3rd", why: "The bronze-medal match — the two beaten semifinalists play for third." },
+    { a: "England", fa: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", b: "France", fb: "🇫🇷", pt: "Final", et: "FT", venue: "Hard Rock Stadium", city: "Miami, FL", grp: "3rd", result: "6–4", marquee: true, why: "Ten goals in Miami. Saka's hat-trick, Bellingham's late winner — and Mbappé's brace makes him the World Cup's all-time leading scorer." },
   ]},
   { date: "19", dow: "Sun", iso: "2026-07-19", month: "Jul", knockout: true, round: "FINAL", matches: [
-    { a: "THE FINAL", fa: "🏆", b: "⚽", fb: "⚽", pt: "12:00 PM", et: "3 PM ET", venue: "MetLife Stadium", city: "East Rutherford, NJ", grp: "FINAL", marquee: true, final: true, why: "The 2026 FIFA World Cup Final at MetLife Stadium, New York/New Jersey. The biggest single match in sport. Kickoff at noon Pacific." },
+    { a: "Spain", fa: "🇪🇸", b: "Argentina", fb: "🇦🇷", pt: "Final", et: "AET", venue: "MetLife Stadium", city: "East Rutherford, NJ", grp: "FINAL", result: "1–0", marquee: true, final: true, why: "🏆 CHAMPIONS. Ferran Torres wins it in the 106th minute as Spain beat 10-man Argentina 1–0 in extra time — their second World Cup, 16 years after 2010. A tearful farewell for Messi." },
   ]},
 ];
 
@@ -2323,7 +2312,7 @@ export default function Orcas2026() {
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
           <FadeIn>
             <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-              <SectionTitle light sub="Every match, June 11 → the July 19 Final · times in Pacific · scores updated June 19">⚽ World Cup 2026</SectionTitle>
+              <SectionTitle light sub="Every match, June 11 → the July 19 Final · times in Pacific · complete · Spain are World Cup champions">⚽ World Cup 2026</SectionTitle>
               <div style={{ fontFamily: fontHead, fontSize: 14, color: COLORS.stone, fontStyle: "italic" }}>
                 USA · Canada · Mexico
               </div>
